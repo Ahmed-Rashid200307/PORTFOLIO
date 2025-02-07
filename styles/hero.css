@@ -1,10 +1,12 @@
+.parent {
+	padding-left: 10%;
+	padding-right: 10%;
+}
 
  body{
   height: 100%;
 	max-width: 100vw;
 	background-color: #1F2024;
-	padding-left: 10%;
-	padding-right: 10%;
 	font: Rubik;
 	color: white;
 }
@@ -21,7 +23,7 @@ img {
 
 .intro-image {
 	height: 100%;
-	padding-top: 28vh;
+	padding-top: 24vh;
 	/* overflow-y: hidden; */
 }
 
