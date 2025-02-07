@@ -4,20 +4,11 @@
   text-align: center;
 }
 
-/* h6 {
+.Education-container h6 {
   font-size: 30px;
-} */
+}
 
-/* h6::after {
-  background: #f00;
-  background: linear-gradient(to right, transparent 0%, #f00 50%, transparent 100%);  
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 2px;
-  width: 100%;
-} */
+
 
 
 

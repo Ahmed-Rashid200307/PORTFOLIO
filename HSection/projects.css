@@ -1,0 +1,24 @@
+.projects-container h6 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.projects-container span {
+  font-size: 12px;
+}
+
+.projects-container > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 20%;
+  row-gap: 10vh;
+  padding-bottom: 100px;
+}
+
+.projects-container img {
+  border-radius: 10px;
+  height: 30vh;
+  cursor: pointer;
+}
