@@ -1,0 +1,52 @@
+.skills-container {
+  text-align: center;
+  height: 100vh;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.skills li {
+  text-align: left;
+}
+
+.skills >div {
+  padding: 10px;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(60deg, rgba(0, 0, 139, 0.5), rgba(255, 0, 0, 0.3)) 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.gradient {
+  position: absolute;
+  background: linear-gradient(90deg,rgba(0, 0, 255, 0.5),rgba(255, 0, 0, 0.5));
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(50px);
+}
+
+/* h6{
+  position: relative;
+} */
+
+/* h6::after{
+	background: #f00;
+	background: linear-gradient(to right, transparent 0%, #f00 50%, transparent 100%);  
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+	height: 2px;
+	width: 80%;
+} */
